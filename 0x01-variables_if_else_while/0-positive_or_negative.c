@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * Determine number is positive,
+ * main -Determine number is positive,
  * negitive or equl zero.
  * Return: Always 0 (Success).
  */
@@ -13,15 +13,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("%i is positive", n);
+printf("%d is positive", n);
 }
 else if (n == 0)
 {
-printf("%i is zero", n);
+printf("%d is zero", n);
 }
 else
 {
-printf("%i is negative", n);
+printf("%d is negative", n);
 }
 return (0);
 }
